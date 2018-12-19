@@ -3,7 +3,6 @@ import Router from 'vue-router';
 import Events from '@/views/Events.vue';
 //import EventCreation from "@/views/EventCreation.vue";
 import Event from '@/views/Event.vue';
-import User from '@/views/User.vue';
 import NotFoundComponent from './views/404.vue';
 
 Vue.use(Router);
@@ -26,14 +25,9 @@ export default new Router({
         import(/* webpackChunkName: "about" */ '@/views/EventCreation.vue')
     },
     {
-      path: '/event/1',
+      path: '/event/:id',
       name: 'Event',
-      component: Event
-    },
-    {
-      path: '/users/:username',
-      name: 'user',
-      component: User,
+      component: Event,
       props: true
     },
     {

@@ -3,10 +3,6 @@
     <div id="nav">
       <router-link :to="{ name: 'Events' }">Home</router-link>|
       <router-link :to="{ name: 'EventCreation' }">Create</router-link>|
-      <router-link :to="{ name: 'Event' }">Event</router-link>|
-      <router-link :to="{ name: 'user', params: { username: 'jjangga0214' } }"
-        >User</router-link
-      >
     </div>
     <router-view />
   </div>
