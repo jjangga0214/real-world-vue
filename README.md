@@ -1,5 +1,7 @@
 # realworld-vue
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jjangga0214/real-world-vue.svg)](https://greenkeeper.io/)
+
 ## Project setup
 ```
 yarn install
